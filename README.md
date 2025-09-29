@@ -55,9 +55,9 @@ curl http://localhost:8080/api/categorias
 curl -X POST http://localhost:8080/api/categorias -H "Content-Type: application/json" -d "{\"nome\":\"Eletrônicos\",\"descricao\":\"Produtos eletrônicos\"}"
 ```
 
-## Dados Iniciais (Gerados por IA)
-## Dados mokados, pois o projeto utiliza "Banco H2"
-## Por serem dados mokados, estes são "reiniciados" a cada nova execução da aplicação
+### Dados Iniciais (Gerados por IA)
+### Dados mokados, pois o projeto utiliza "Banco H2"
+### Por serem dados mokados, estes são "reiniciados" a cada nova execução da aplicação
 
 A aplicação já vem com categorias e produtos pré-cadastrados para testes.
 Dados gerados automaticamente por questões praticas e pelo tempo reduzido para realização do projeto.

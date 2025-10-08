@@ -1,6 +1,6 @@
 # API REST - Gerenciamento de Produtos e Categorias
 
-Desenvolvimento de API REST, como Estudo de Caso para Vaga de Especialista de Ensiono no SENAI-SC.
+Desenvolvimento de API REST, como Estudo de Caso.
 Aplicação desenvolvido em Java com Spring Boot, para gerenciamento de produtos e suas respectivas categorias, assemelhando-se a um "sistema de estoque" simples.
 Utilização de dados mokados.
 
@@ -9,10 +9,10 @@ Utilização de dados mokados.
 - Java 21
 - Spring Boot 3.5.6
 - Spring Data JPA
-- Banco H2 (em memória) - Não utilizado anteriormente (utilizei de IA para auxiliar a estruturar esta parte)
+- Banco H2 (em memória) - Não utilizado anteriormente (utilizei de LLM para auxiliar na estruturação dos dados)
 - Lombok - Biblioteca de recursos java, para simplificação de código
 - Maven - Gerenciador de pacotes
-- Extra: IA (ChatGPT) para auxílio para utilização do Banco H2, assim como a respectiva criação dos dados mokados
+- Extra: LLM para auxílio na utilização do Banco H2, assim como a respectiva criação dos dados mokados
 
 ## Para Executar
 
@@ -24,7 +24,7 @@ Utilização de dados mokados.
 5. Console do H2: `http://localhost:8080/h2-console`
    - URL: `jdbc:h2:mem:testdb`
    - Usuário: `sa`
-   - Senha: (deixar em branco)
+   - Senha:
 
 ## Endpoints da API (Solicitei para a IA criar uma lista para facilitar e agilizar as instruções)
 
